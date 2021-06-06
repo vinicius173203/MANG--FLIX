@@ -1,0 +1,145 @@
+
+body{
+    background-color:rgb(17, 19, 19);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header .container{
+    border: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*menu*/
+
+.menu{
+    list-style: none;
+    float: left;
+}
+
+.menu li{
+    position: relative;
+    float: left;
+}
+.menu li a{ 
+    color: silver;
+    text-decoration: silver;
+    padding: 5px 10px;
+    display: block;
+
+}
+
+
+.menu li ul{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    display: none;
+}
+.menu li:hover ul, .menu li.over ul{ display: block;}
+
+.menu li ul li {
+    display: block;
+    width: 150px;
+}
+
+.containerr{
+   border: 0px;
+   width: auto;
+   background: rgb(17, 19, 19);
+   color: silver;
+   font-size: 18px;
+}
+
+.title{
+    font-family:sans-serif
+}
+
+header .logo{
+    color: red;
+    font-family: arial black, times;
+    font-size: 40px;
+}
+header nav a{
+    text-decoration: none;
+    color: silver;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: slategray;
+}
+
+/* filme principa*/
+
+.manga-principal{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('D:/NETFLIX/img/Ação/Naruto.jpg');
+
+    height:400px;
+    background-size:cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.manga-principal .descricao{
+    margin-bottom: 40px;
+}
+
+.titulo{
+    margin-top: 15%;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.descricao{
+    font-size: 25px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.botao{
+    background-color: rgba(0, 0, 0, 50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: 3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 300px;
+    width: 100px;
+    display: block;
+}
+
+
+
